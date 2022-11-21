@@ -54,3 +54,7 @@ avrà le seguenti section:
 ### FOOTER:
  • MENU LEFT = 3 colonne
  • MENU RIGTH = immagine background position rigth
+
+## PROMEMORIA!!! - TO DO!!! - DON'T SCORD TU!!!
+ • capire come fare lo sfondo puntinato jumbotron - footer e colonna nera deals
+

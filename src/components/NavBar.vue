@@ -1,13 +1,11 @@
 <script>
 export default {
-    name: 'SiteFooter'
+    name: 'NavBar'
 }
 </script>
 
 <template>
-    <footer id="site-footer">
-        <h2>FOOTER</h2>
-    </footer>
+   
 </template>
 
 <style lang="scss" scoped>
