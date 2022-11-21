@@ -1,10 +1,12 @@
+@use '../scss/partials/variables' as *;
 @use '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 @use './partials/_variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&display=swap');
-
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Noto Sans', sans-serif;
+
+/* #region common */
 
 * {
   margin: 0;
@@ -19,3 +21,26 @@ body {
 img {
   max-width: 100%;
 }
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: $proj_ligth;
+}
+
+.btn_primary {
+  background-color: $proj_primary;
+  color: $proj_ligth;
+  border: none;
+}
+
+.btn_secondary{
+  background-color: transparent;
+  color: $proj_ligth;
+  border: none;
+}
+
+/* #region common */

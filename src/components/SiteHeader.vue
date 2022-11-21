@@ -2,7 +2,6 @@
 import NavBar from './NavBar.vue'
 import HeroPizza from './HeroPizza.vue'
 
-
 export default {
     name: 'SiteHeader',
     components: {
