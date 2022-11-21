@@ -5,19 +5,17 @@ import HeroPizza from './HeroPizza.vue'
 
 export default {
     name: 'SiteHeader',
-     components: {
+    components: {
         NavBar,
         HeroPizza
-     }
+    }
 }
 </script>
 
 <template>
     <header id="site-header">
-        <div class="container">
-            <NavBar />
-            <HeroPizza />
-        </div>
+        <NavBar />
+        <HeroPizza />
     </header>
 </template>
 
@@ -26,13 +24,5 @@ export default {
 
 header {
     background-color: $proj_dark;
-    .container {
-        background-image: url('../assets/img/h3-rev-img-5.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 500px;
-        width: 50%;
-    }
 }
 </style>
