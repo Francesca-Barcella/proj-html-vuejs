@@ -6,7 +6,7 @@ export default {
 
 <template>
     <header id="site-header">
-        <h2>HEADER</h2>
+        <h2>HEADER TRADITIONAL</h2>
     </header>
 </template>
 
