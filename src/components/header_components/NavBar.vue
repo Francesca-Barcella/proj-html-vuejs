@@ -1,6 +1,34 @@
 <script>
 export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    data() {
+        return {
+            leftMenu: [
+                {
+                    text: 'HOME'
+                },
+                {
+                    text: 'PAGES'
+                },
+                {
+                    text: 'MENU'
+                }
+            ],
+
+            rigthMenu: [
+                {
+                    text: 'EVENT'
+                },
+                {
+                    text: 'BLOG'
+                },
+                {
+                    text: 'LANDING'
+                }
+            ]
+
+        }
+    }
 }
 </script>
 
@@ -9,22 +37,18 @@ export default {
         <div class="container d-flex">
             <button class="btn_primary p-3" type="submit">ORDER ONLINE</button>
             <!-- left menu -->
-            <ul>
-                <li class="px-2"><a href="#">HOME</a></li>
-                <li class="px-2"><a href="#">PAGES</a></li>
-                <li class="px-2"><a href="#">MENU</a></li>
+            <ul v-for="item in leftMenu">
+                <li class="px-1"><a href="#">{{item.text}}</a></li>
             </ul>
             <!-- brand log -->
             <a class="navbar-brand" href="#"><img src="../../assets/img/h5-logo-divided-header.png" alt=""></a>
             <!-- right menu -->
-            <ul>
-                <li class="px-2"><a href="#">EVENT</a></li>
-                <li class="px-2"><a href="#">BLOG</a></li>
-                <li class="px-2"><a href="#">LANDING</a></li>
+            <ul v-for="item in rigthMenu">
+                <li class="px-1"><a href="#">{{item.text}}</a></li>
             </ul>
-            <!-- right button -->
+            <!-- right buttons -->
             <ul>
-                <li class="px-2">
+                <li class="px-1">
                     <a href="#" class="d-flex">
                         <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="28" height="22">
                             <path fill="currentColor"
@@ -39,7 +63,7 @@ export default {
                         CART
                     </a>
                 </li>
-                <li class="px-2">
+                <li class="px-1">
                     <a href="#" class="d-flex">
                         <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="28" height="22">
                             <path fill="currentColor"
@@ -66,13 +90,12 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    button:hover{
+    button:hover {
         cursor: pointer;
     }
 
     ul {
         display: flex;
-        justify-content: space-around;
         align-items: center;
     }
 

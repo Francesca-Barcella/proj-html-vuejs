@@ -1,9 +1,10 @@
 ## PROMEMORIA!!! - TO DO!!! - DON'T SCORD TU!!!
  • capire come fare lo sfondo puntinato jumbotron - footer e colonna nera deals
  • capire se posso mettere anche il font nelle variables
- • capire come mettere il logo nella navbar bianco
+ • FATTO!!! - capire come mettere il logo nella navbar bianco
  • verificare se ho inserito awesome in modo corretto!! non si vede nessuna icona. FONT AWESOME!!CAPIRE COME USARLO!!!
  • verificare immagine search
+ • capire se posso cicalre anceh con le svg per i buttons vespa e search
 
 ## DOMANDE/DUBBI:
 1° - tasto tondo con fetta di pizza: sarebbe il link ai cookie o qualcosa del genere? perchè si ripete nello screenshot? deve restare fisso in un certo punto della pagina?
@@ -24,12 +25,16 @@ DEVE ESSERE COSI COME IN FOTO
 PESCARE DA FIGMA
 
 ## elementi mancanti da trovare:
+ • background puntinato
+ • backgroundlogo natural del footer
+ • icona search
+
 ## ANALISI-SCALETTA:
 1° - analisi layout con figma - FATTO 
 2° - ragionare su quali strumenti potrei utilizzare/installare in vite - FATTO
-3° - individuare componenti per suddividere il lavoro
+3° - individuare componenti per suddividere il lavoro - FATTO
 4° - meditare!!!
-5° - iniziare a impostare la struttura a blocchi per il laytou statico
+5° - iniziare a impostare la struttura a blocchi per il laytou statico - FATTO
 6° - passare a ragionare su come rendere dinamico il layout
 
 ## STRUMENTI DA INSTALLARE:
