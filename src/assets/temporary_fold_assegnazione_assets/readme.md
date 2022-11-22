@@ -5,6 +5,7 @@
  • verificare se ho inserito awesome in modo corretto!! non si vede nessuna icona. FONT AWESOME!!CAPIRE COME USARLO!!!
  • verificare immagine search
  • capire se posso cicalre anceh con le svg per i buttons vespa e search
+ • vedere bordi della section articles
 
 ## DOMANDE/DUBBI:
 1° - tasto tondo con fetta di pizza: sarebbe il link ai cookie o qualcosa del genere? perchè si ripete nello screenshot? deve restare fisso in un certo punto della pagina?

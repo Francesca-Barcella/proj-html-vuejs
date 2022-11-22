@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'OurTeamSection'
+    name: 'OurTeamSection',
 }
 </script>
 
@@ -8,10 +8,10 @@ export default {
     <section class="our_team">
         <div class="container-fluid my-2">
             <div class="row">
-                <div class="col">COL 1 Our Team Section</div>
-                <div class="col">COL 2 Our Team Section</div>
-                <div class="col">COL 3 Our Team Section</div>
-                <div class="col">COL 4 Our Team Section</div>
+                <div class="col"> </div>
+                <div class="col"> </div>
+                <div class="col"> </div>
+                <div class="col"> </div>
             </div>
         </div>
     </section>
