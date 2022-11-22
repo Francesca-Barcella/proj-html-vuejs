@@ -16,7 +16,7 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
 .Testimonials{
-    background-color: $proj_dark_ligth;
+    background-color: $proj_bg_ligth;
     background-image: url('../../assets/img/h3-testimonials-bckgrnd.jpg');
     background-size: contain;
     background-repeat: no-repeat;

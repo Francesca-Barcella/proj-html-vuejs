@@ -3,8 +3,8 @@
 @use './partials/_variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&display=swap');
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Noto Sans', sans-serif;
+// font-family: 'Oswald', sans-serif; - MAIUSCOLO
+// font-family: 'Noto Sans', sans-serif; - MINUSCOLO
 
 /* #region common */
 
@@ -43,4 +43,15 @@ a{
   border: none;
 }
 
+.uppercase {
+  color: $proj_secondary ;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.lowercase {
+  color: $proj_dark_ligth ;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: smaller;
+}
 /* #region common */
