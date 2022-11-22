@@ -26,7 +26,6 @@ export default {
 
 footer {
     background-color: $proj_dark;
-    height: 400px;
     background-image: url('../assets/img/footer-img-1.jpg');
     background-position: right;
     background-repeat: no-repeat;

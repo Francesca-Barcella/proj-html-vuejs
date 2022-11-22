@@ -79,6 +79,7 @@ export default {
     a {
         font-family: 'Oswald', sans-serif;
         letter-spacing: 0.15rem;
+        color: $proj_ligth;
     }
 
     img {

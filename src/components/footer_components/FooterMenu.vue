@@ -69,7 +69,7 @@ export default {
 
 <template>
     <section class="footer_menu">
-        <div class="container-fluid top py-2">
+        <div class="container-fluid p-2">
             <div class="row py-5">
                 <!-- find restaurant -->
                 <div class="col">
@@ -98,11 +98,14 @@ export default {
                     </div>
                 </div>
                 <!--caption -->
-                <div class="col caption uppercase" >
+                <div class="col caption uppercase">
                     <div v-for="item in Caption">
-                        <h5>{{item.text}}</h5>
+                        <h5>{{ item.text }}</h5>
                     </div>
-
+                </div>
+                <div class="container-fluid created d-flex">
+                    <div>Created with &hearts; by <span>Qode Interactive</span></div>
+                    <img src="../../assets/img/h5-logo-divided-header-dark.png" alt="">
                 </div>
             </div>
         </div>
@@ -116,8 +119,26 @@ export default {
     justify-content: flex-start;
 }
 
-.caption h5{
+.caption h5 {
     color: $proj_ligth;
 }
 
+.created{
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        align-self: flex-end;
+        color: $proj_secondary;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: small;
+        span {
+            color: green;
+        }
+    }
+    
+    img{
+        max-width: 125px;
+    }
+}
 </style>

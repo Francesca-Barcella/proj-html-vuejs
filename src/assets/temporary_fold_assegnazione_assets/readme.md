@@ -72,4 +72,4 @@ avrà le seguenti section:
 8 = freccia bianca
 9 = carrello fucsia
 10 = tondo strano fucsia
-11 = boh...non si vede
+11 = freccia dx-top
