@@ -1,4 +1,6 @@
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+ 
 export default {
     name: 'FooterMenu',
     data() {
@@ -95,6 +97,7 @@ export default {
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-instagram"></i>
                         <i class="fa-brands fa-linkedin-in"></i>
+                        <font-awesome-icon icon="fa-solid fa-user-secret" />
                     </div>
                 </div>
                 <!--caption -->
@@ -119,8 +122,20 @@ export default {
     justify-content: flex-start;
 }
 
+h6, h5 {
+    color: $proj_secondary;
+}
+
 .caption h5 {
     color: $proj_ligth;
+}
+
+li{
+    color: $proj_dark_ligth;
+}
+
+i{
+    color: white;
 }
 
 .created{
