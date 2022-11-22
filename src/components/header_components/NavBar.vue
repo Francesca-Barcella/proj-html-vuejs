@@ -15,7 +15,7 @@ export default {
                 <li class="px-2"><a href="#">MENU</a></li>
             </ul>
             <!-- brand log -->
-            <a class="navbar-brand" href="#"><img src="../../assets/img/h5-logo-divided-header-dark.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../../assets/img/h5-logo-divided-header.png" alt=""></a>
             <!-- right menu -->
             <ul>
                 <li class="px-2"><a href="#">EVENT</a></li>
@@ -84,7 +84,6 @@ export default {
 
     img {
         width: 160px;
-        filter: grayscale(100%);
     }
 
 }
