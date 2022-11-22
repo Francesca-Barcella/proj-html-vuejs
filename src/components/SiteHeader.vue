@@ -1,6 +1,6 @@
 <script>
-import NavBar from './NavBar.vue'
-import HeroPizza from './HeroPizza.vue'
+import NavBar from './header_components/NavBar.vue'
+import HeroPizza from './header_components/HeroPizza.vue'
 
 export default {
     name: 'SiteHeader',
@@ -19,7 +19,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/_variables.scss' as *;
+@use '../assets/scss/partials/variables.scss' as *;
 
 header {
     background-color: $proj_dark;
