@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="container d-flex p-2">
-        <img src="../assets/img/h3-rev-img-6.png" alt="">
+        <img src="../../assets/img/h3-rev-img-6.png" alt="">
     </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 @use '../../assets/scss/partials/variables.scss' as *;
 
 .container {
-    background-image: url('../assets/img/h3-rev-img-5.png');
+    background-image: url('../../assets/img/h3-rev-img-5.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
