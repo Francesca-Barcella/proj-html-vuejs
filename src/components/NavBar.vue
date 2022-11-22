@@ -25,9 +25,7 @@ export default {
             <!-- right button -->
             <ul>
                 <li class="px-2"><a href="#" class="d-flex"><img class="vespa me-2" src="../assets/svg/svg-1.svg" alt="">CART</a></li>
-                <li class="px-2"><a href="#"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</a></li>
-                <!--                <button class="btn_secondary p-3" type="submit">CART</button>
-                <button class="btn_secondary p-3" type="submit">SEARCH</button> -->
+                <li class="px-2"><a href="#"><img class="vespa me-2" src="../assets/svg/svg-1.svg" alt="">SEARCH</a></li>
             </ul>
         </div>
     </nav>
@@ -56,7 +54,7 @@ export default {
     }
 
     .vespa {
-        width: 50px;
+        width: 35px;
     }
 
 }

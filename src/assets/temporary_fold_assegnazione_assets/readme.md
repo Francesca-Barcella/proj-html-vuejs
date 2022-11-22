@@ -2,6 +2,8 @@
  • capire come fare lo sfondo puntinato jumbotron - footer e colonna nera deals
  • capire se posso mettere anche il font nelle variables
  • capire come mettere il logo nella navbar bianco
+ • verificare se ho inserito awesome in modo corretto!! non si vede icona search
+ • verificare immagine search
 
 ## DOMANDE/DUBBI:
 1° - tasto tondo con fetta di pizza: sarebbe il link ai cookie o qualcosa del genere? perchè si ripete nello screenshot? deve restare fisso in un certo punto della pagina?
