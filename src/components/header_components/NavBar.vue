@@ -46,7 +46,8 @@ export default {
             <ul v-for="item in rigthMenu">
                 <li class="px-1"><a href="#">{{item.text}}</a></li>
             </ul>
-            <!-- right buttons -->
+            <!-- right buttons
+             -->
             <ul>
                 <li class="px-1">
                     <a href="#" class="d-flex">
