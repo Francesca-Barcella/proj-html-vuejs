@@ -1,14 +1,27 @@
 <script>
-export default{
-    name : 'PizzaDealsSection'
+export default {
+    name: 'PizzaDealsSection'
 }
 </script>
 
 <template>
-<h3>prova Pizza Deals Section</h3>
+    <section class="pizza_deals my-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">LISTA DEALS</div>
+                <div class="col">IMMAGINE DI SFONDO</div>
+            </div>
+        </div>
+
+    </section>
 
 </template>
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
- </style>
+
+.pizza_deals {
+    background-color: $proj_secondary;
+    height: 300px;
+}
+</style>
