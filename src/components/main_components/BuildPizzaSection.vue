@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section class="build_pizza">
-        <div class="container uppercase py-5">
+        <div class="container uppercase py-5 px-5">
             GO AHEAD AND <br>
             BUILD YOUR <br>
             OWN PIZZA <br>
@@ -23,7 +23,7 @@ export default {
 .build_pizza {
     background-image: url('../../assets/img/h3-background-img.jpg');
     background-size: contain;
-    background-repeat: repeat;
+    background-repeat: round repeat;
     background-position: center;
     font-size: 70px;
     font-weight: bold;
