@@ -29,9 +29,9 @@ export default {
 
 <template>
     <section class="articles">
-        <div class="container-fluid my-3">
+        <div class="container-fluid my-2">
             <div class="row">
-                <div class="col mx-2" v-for="item in imgArticles"><img :src="getImageUrl(item.url)" alt=""></div>
+                <div class="col" v-for="item in imgArticles"><img :src="getImageUrl(item.url)" alt=""></div>
             </div>
         </div>
     </section>
@@ -40,12 +40,11 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
 
-.row:last-child {
-    margin-right: -2rem;
+.col:first-child, .col:nth-child(2), .col:nth-child(3) {
+    margin-right: 0.75rem;
 }
-.row:first-child {
-    margin-left: -2rem;
-}
+
+
 
 .col {
     padding: 0;
