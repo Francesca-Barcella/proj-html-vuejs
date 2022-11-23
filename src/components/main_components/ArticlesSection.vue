@@ -1,9 +1,9 @@
 <script>
 export default {
     name: 'ArticlesSection',
-    data(){
-        return{
-            imgArticles:[
+    data() {
+        return {
+            imgArticles: [
                 {
                     url: 'h3-img-1.jpg'
                 },
@@ -31,7 +31,7 @@ export default {
     <section class="articles">
         <div class="container-fluid my-3">
             <div class="row">
-                <div class="col" v-for="item in imgArticles"><img :src="getImageUrl(item.url)" alt=""></div>
+                <div class="col mx-2" v-for="item in imgArticles"><img :src="getImageUrl(item.url)" alt=""></div>
             </div>
         </div>
     </section>
@@ -40,11 +40,18 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
 
+.row:last-child {
+    margin-right: -2rem;
+}
+.row:first-child {
+    margin-left: -2rem;
+}
+
 .col {
     padding: 0;
+    img:hover{
+        cursor: pointer;
+    }
 }
-.col>img:hover {
-    cursor: pointer;
-    
-}
+
 </style>
