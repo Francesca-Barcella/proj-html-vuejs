@@ -92,7 +92,7 @@ export default {
                         <li class="lowercase">{{ item.hours }}</li>
                     </ul>
                     <div class="social d-flex mt-3">
-                        <H6 class="uppercase">FOLLOW US</H6>
+                        <h6 class="uppercase">FOLLOW US</h6>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-instagram"></i>
