@@ -23,5 +23,7 @@ export default {
 
 header {
     background-color: $proj_dark;
+    padding-top:1rem;
+    padding-bottom: 2rem;
 }
 </style>
