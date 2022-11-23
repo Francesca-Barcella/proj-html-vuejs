@@ -27,7 +27,10 @@ export default {
     justify-content: start;
     shape-outside: circle(50% at 30%);
     //il primo valore indica quanto tagliare il cerchio e il secondo la posizione del centro del cerchio
-    clip-path: circle(50% at 2%);
+    clip-path: circle(50% at 0%);
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .prev>p {
