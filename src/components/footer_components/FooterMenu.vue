@@ -90,11 +90,11 @@ export default {
                         <li class="lowercase">{{ item.hours }}</li>
                     </ul>
                     <div class="social d-flex mt-3">
-                        <h6 class="uppercase">FOLLOW US</h6>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <h6 class="uppercase pe-1">FOLLOW US:</h6>
+                        <i class="fa-brands fa-twitter px-2"></i>
+                        <i class="fa-brands fa-facebook-f px-2"></i>
+                        <i class="fa-brands fa-instagram px-2"></i>
+                        <i class="fa-brands fa-linkedin-in px-2"></i>
                     </div>
                 </div>
                 <!--caption -->
@@ -132,7 +132,8 @@ li{
 }
 
 i{
-    color: white;
+    color: $proj_ligth;
+    font-size: smaller;
 }
 
 .created{
