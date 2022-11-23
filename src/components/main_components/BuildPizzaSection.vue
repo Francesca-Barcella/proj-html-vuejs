@@ -6,9 +6,12 @@ export default {
 
 <template>
     <section class="build_pizza">
-        <div class="container">
-            GO AHED ....... DA LAVORARE SULLE IMPOSTAZIONE DEL BACKGROUND SIZE E POSITION
-            <h3>prova Build Pizza Section</h3>
+        <div class="container uppercase py-5">
+            GO AHEAD AND <br>
+            BUILD YOUR <br>
+            OWN PIZZA <br>
+            WE WON'T <br>
+            JUDGE! <br>
         </div>
     </section>
 
@@ -16,11 +19,14 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables.scss' as *;
-.build_pizza{
+
+.build_pizza {
     background-image: url('../../assets/img/h3-background-img.jpg');
     background-size: contain;
     background-repeat: repeat;
     background-position: center;
-    height: 385px;
+    font-size: 70px;
+    font-weight: bold;
+    color: $proj_ligth;
 }
 </style>

@@ -1,6 +1,4 @@
-<script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
- 
+<script> 
 export default {
     name: 'FooterMenu',
     data() {
@@ -97,7 +95,6 @@ export default {
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-instagram"></i>
                         <i class="fa-brands fa-linkedin-in"></i>
-                        <font-awesome-icon icon="fa-solid fa-user-secret" />
                     </div>
                 </div>
                 <!--caption -->
