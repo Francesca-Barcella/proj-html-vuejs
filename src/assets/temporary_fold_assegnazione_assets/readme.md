@@ -1,11 +1,11 @@
 ## PROMEMORIA!!! - TO DO!!! - DON'T SCORD TU!!!
- • capire come fare lo sfondo puntinato jumbotron - footer e colonna nera deals
- • capire se posso mettere anche il font nelle variables
  • FATTO!!! - capire come mettere il logo nella navbar bianco
- • verificare se ho inserito awesome in modo corretto!! non si vede nessuna icona. FONT AWESOME!!CAPIRE COME USARLO!!!
- • verificare immagine search
- • capire se posso cicalre anceh con le svg per i buttons vespa e search
- • vedere bordi della section articles
+ • FATTO!!! - verificare inserimento font awesome!!Non si vedono icone. FONT AWESOME!!CAPIRE COME USARLO!!! - risolto per ora importando la cdn
+ • FATTO!!! - verificare immagine search
+ • FATTO!!! - vedere bordi della section articles
+ • capire se posso ciclare anche con le svg per i buttons vespa e search
+ • capire se posso mettere anche il font nelle variables
+ • capire come fare lo sfondo puntinato jumbotron - footer e colonna nera deals
 
 ## DOMANDE/DUBBI:
 1° - tasto tondo con fetta di pizza: sarebbe il link ai cookie o qualcosa del genere? perchè si ripete nello screenshot? deve restare fisso in un certo punto della pagina?
