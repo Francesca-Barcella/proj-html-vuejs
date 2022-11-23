@@ -28,8 +28,13 @@ export default {
     shape-outside: circle(50% at 30%);
     //il primo valore indica quanto tagliare il cerchio e il secondo la posizione del centro del cerchio
     clip-path: circle(50% at 0%);
-    &:hover{
+    transition: 0.5s;
+
+    &:hover {
         cursor: pointer;
+        background-color: $proj_primary;
+        color: $proj_dark;
+
     }
 }
 
