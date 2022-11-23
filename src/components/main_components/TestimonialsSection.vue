@@ -23,9 +23,9 @@ export default {
             <!-- testimonial review -->
             <div class="reviews">
                 <i class="fa-sharp fa-solid fa-quote-left pt-5 quote"></i>
-                <h2 class="uppercase py-1">"FORGET THE TRANDY PIZZA SHOP, THIS HIDDEN SPOT MAKES THE BEST
+                <h3 class="uppercase py-1">"FORGET THE TRANDY PIZZA SHOP, THIS HIDDEN SPOT MAKES THE BEST
                     NEW
-                    YORK-STYLE PIZZA SLICE IN NAPPLES"</h2>
+                    YORK-STYLE PIZZA SLICE IN NAPPLES"</h3>
                 <h5 class="author uppercase pb-3">WASHINGTON POST 2018</h5>
                 <div class="d-flex justify-content-center pb-5">
                     <div class="circle"></div>
