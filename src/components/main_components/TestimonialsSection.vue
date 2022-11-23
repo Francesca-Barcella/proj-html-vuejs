@@ -1,6 +1,14 @@
 <script>
+import ButtonPrev from '../common_components/ButtonPrev.vue'
+import ButtonNext from '../common_components/ButtonNext.vue'
+
 export default {
-    name: 'TestimonialsSection'
+    name: 'TestimonialsSection',
+    components:{
+        ButtonPrev,
+        ButtonNext
+    }
+
 }
 </script>
 
@@ -8,9 +16,10 @@ export default {
     <section class="Testimonials">
         <div class="container_testimonials d-flex">
             <!-- button prev -->
-            <div class="prev uppercase">
+            <!-- <div class="prev uppercase">
                 <p>PREV</p>
-            </div>
+            </div> -->
+            <ButtonPrev />
             <!-- testimonial review -->
             <div class="reviews">
                 <i class="fa-sharp fa-solid fa-quote-left pt-5 quote"></i>
@@ -25,9 +34,10 @@ export default {
                 </div>
             </div>
             <!-- button next -->
-            <div class="next uppercase">
+            <!-- <div class="next uppercase">
                 <p>NEXT</p>
-            </div>
+            </div> -->
+            <ButtonNext />
         </div>
     </section>
 
@@ -48,7 +58,7 @@ export default {
         align-items: center;
     }
 
-    .prev,
+   /*  .prev,
     .next {
         background-color: $proj_ligther;
         color: $proj_primary;
@@ -62,16 +72,16 @@ export default {
         shape-outside: circle(50% at 30%);
         //il primo valore indica quanto tagliare il cerchio e il secondo la posizione del centro del cerchio
         clip-path: circle(50% at 2%);
-    }
+    } */
 
-    .next {
+   /*  .next {
         transform: rotate(-180deg);
     }
 
     .prev>p,
     .next>p {
         transform: rotate(+90deg);
-    }
+    } */
 
     .reviews {
         justify-content: space-evenly;
