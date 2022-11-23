@@ -1,4 +1,4 @@
-<script> 
+<script>
 export default {
     name: 'FooterMenu',
     data() {
@@ -119,7 +119,8 @@ export default {
     justify-content: flex-start;
 }
 
-h6, h5 {
+h6,
+h5 {
     color: $proj_secondary;
 }
 
@@ -127,16 +128,22 @@ h6, h5 {
     color: $proj_ligth;
 }
 
-li{
+li {
     color: $proj_dark_ligth;
 }
 
-i{
+i {
     color: $proj_ligth;
     font-size: smaller;
+    transition: 0.5s;
+
+    &:hover {
+        color: $proj_secondary;
+        cursor: pointer;
+    }
 }
 
-.created{
+.created {
     justify-content: space-between;
     align-items: center;
 
@@ -145,12 +152,13 @@ i{
         color: $proj_secondary;
         font-family: 'Noto Sans', sans-serif;
         font-size: small;
+
         span {
             color: green;
         }
     }
-    
-    img{
+
+    img {
         max-width: 125px;
     }
 }
