@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section class="build_pizza">
-        <div class="container uppercase py-5 px-5">
+        <div class="container uppercase py-5 ">
             GO AHEAD AND <br>
             BUILD YOUR <br>
             OWN PIZZA <br>
