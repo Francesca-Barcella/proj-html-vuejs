@@ -38,13 +38,13 @@ export default {
             <button class="btn_primary p-3" type="submit">ORDER ONLINE</button>
             <!-- left menu -->
             <ul v-for="item in leftMenu">
-                <li class="px-1"><a href="#">{{item.text}}</a></li>
+                <li class="px-1"><a href="#">{{ item.text }}</a></li>
             </ul>
-            <!-- brand log -->
-            <a class="navbar-brand" href="#"><img src="../../assets/img/h5-logo-divided-header.png" alt=""></a>
+            <!-- brand logo -->
+            <img src="../../assets/img/h5-logo-divided-header.png" alt="">
             <!-- right menu -->
             <ul v-for="item in rigthMenu">
-                <li class="px-1"><a href="#">{{item.text}}</a></li>
+                <li class="px-1"><a href="#">{{ item.text }}</a></li>
             </ul>
             <!-- right buttons
              -->
@@ -95,14 +95,33 @@ export default {
         font-family: 'Oswald', sans-serif;
         letter-spacing: 0.15rem;
         color: $proj_ligth;
+        border-bottom: 1px solid transparent;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: $proj_secondary;
+            border-bottom: 1px solid $proj_secondary;
+        }
     }
 
     img {
         width: 160px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
-    i{
+    i {
         transform: scalex(-1);
+    }
+
+    .btn_primary {
+        opacity: 100%;
+        transition-duration: 0.5s;
+        &:hover {
+            opacity: 50%;
+        }
     }
 
 }

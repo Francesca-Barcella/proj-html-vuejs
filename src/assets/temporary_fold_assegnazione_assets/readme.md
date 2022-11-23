@@ -1,6 +1,6 @@
 ## PROMEMORIA!!! - TO DO!!! - DON'T SCORD TU!!!
  • FATTO!!! - capire come mettere il logo nella navbar bianco
- • FATTO!!! - verificare inserimento font awesome!!Non si vedono icone. FONT AWESOME!!CAPIRE COME USARLO!!! - risolto per ora importando la cdn
+ • FATTO!!! - verificare inserimento font awesome!!Non si vedono icone. FONT AWESOME!!CAPIRE COME USARLO!!! - per ora importato la cdn
  • FATTO!!! - verificare immagine search
  • FATTO!!! - vedere bordi della section articles
  • capire se posso ciclare anche con le svg per i buttons vespa e search
@@ -79,3 +79,8 @@ avrà le seguenti section:
 9 = carrello fucsia
 10 = tondo strano fucsia
 11 = freccia dx-top
+
+### over del menu header:
+color primary per:
+
+
