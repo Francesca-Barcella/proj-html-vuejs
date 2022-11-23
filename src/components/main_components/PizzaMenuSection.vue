@@ -94,10 +94,15 @@ export default {
 
     .pizza_name {
         color: $proj_secondary;
+
     }
 
     .pizza_price {
         color: $proj_primary;
+    }
+    
+    p{
+        font-size: 1rem;
     }
 }
 </style>

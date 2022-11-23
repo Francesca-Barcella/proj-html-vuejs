@@ -100,7 +100,7 @@ export default {
                 <!--caption -->
                 <div class="col caption uppercase">
                     <div v-for="item in Caption">
-                        <h5>{{ item.text }}</h5>
+                        <h5 class="lowercase">{{ item.text }}</h5>
                     </div>
                 </div>
                 <div class="container-fluid created d-flex">
@@ -122,14 +122,17 @@ export default {
 h6,
 h5 {
     color: $proj_secondary;
+    font-size: 1rem;
 }
 
 .caption h5 {
     color: $proj_ligth;
+    font-size: 1rem;
 }
 
 li {
     color: $proj_dark_ligth;
+    font-size: 1rem;
 }
 
 i {

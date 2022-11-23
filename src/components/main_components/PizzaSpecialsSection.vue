@@ -82,6 +82,7 @@ export default {
     p {
         color: $proj_dark_ligth;
         letter-spacing: 0.1rem;
+        font-size: 1rem;
     }
 
     .price>h4 {

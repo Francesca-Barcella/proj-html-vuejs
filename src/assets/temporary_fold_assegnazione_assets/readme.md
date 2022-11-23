@@ -28,7 +28,7 @@ PESCARE DA FIGMA
 ## elementi mancanti da trovare:
  • background puntinato
  • backgroundlogo natural del footer
- • icona search
+ • FATTO!!! - icona search
 
 ## ANALISI-SCALETTA:
 1° - analisi layout con figma - FATTO 
@@ -79,8 +79,5 @@ avrà le seguenti section:
 9 = carrello fucsia
 10 = tondo strano fucsia
 11 = freccia dx-top
-
-### over del menu header:
-color primary per:
 
 

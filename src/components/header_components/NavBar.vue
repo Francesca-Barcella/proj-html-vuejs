@@ -35,16 +35,16 @@ export default {
 <template>
     <nav class="navbar p-3">
         <div class="container d-flex">
-            <button class="btn_primary p-3" type="submit">ORDER ONLINE</button>
+            <button class="btn_primary uppercase p-3" type="submit">ORDER ONLINE</button>
             <!-- left menu -->
             <ul v-for="item in leftMenu">
-                <li class="px-1"><a href="#">{{ item.text }}</a></li>
+                <li class="px-1 lowercase"><a href="#">{{ item.text }}</a></li>
             </ul>
             <!-- brand logo -->
             <img src="../../assets/img/h5-logo-divided-header.png" alt="">
             <!-- right menu -->
             <ul v-for="item in rigthMenu">
-                <li class="px-1"><a href="#">{{ item.text }}</a></li>
+                <li class="px-1 lowercase"><a href="#">{{ item.text }}</a></li>
             </ul>
             <!-- right buttons
              -->
@@ -67,7 +67,7 @@ export default {
                 <li class="px-1">
                     <a href="#" class="d-flex">
                         <i class="fa-solid fa-magnifying-glass mx-2"></i>
-                        <span>SEARCH</span>
+                        <span class="uppercase">SEARCH</span>
                     </a>
                 </li>
             </ul>
@@ -97,6 +97,7 @@ export default {
         color: $proj_ligth;
         border-bottom: 1px solid transparent;
         transition-duration: 0.5s;
+        font-size: 1rem;
 
         &:hover {
             color: $proj_secondary;

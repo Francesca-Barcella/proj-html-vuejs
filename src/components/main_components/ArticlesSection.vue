@@ -44,8 +44,6 @@ export default {
     margin-right: 0.75rem;
 }
 
-
-
 .col {
     padding: 0;
     img:hover{
