@@ -105,7 +105,7 @@ export default {
                 </div>
                 <div class="container-fluid created d-flex">
                     <div>Created with &hearts; by <span>Qode Interactive</span></div>
-                    <img src="../../assets/img/h5-logo-divided-header-dark.png" alt="">
+                    <img src="../../assets/img/natural.png" alt="">
                 </div>
             </div>
         </div>
@@ -163,6 +163,8 @@ i {
 
     img {
         max-width: 125px;
+        filter: sepia(100%);
+        
     }
 }
 </style>
