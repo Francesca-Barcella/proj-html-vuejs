@@ -51,9 +51,9 @@ export default {
         <div class="description_section pb-5">
             <h5 class="uppercase pb-3">CHOOSE YOUR FLAVORE</h5>
             <h3 class="uppercase py-1">THE BEST PIZZA MENU IN TOWN</h3>
-            <P class="lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reiciendis aliquam
+            <p class="lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reiciendis aliquam
                 odit dolores sint
-                ipsum ad odio consectetur, quibusdam voluptates itaque numquam dolorem!</P>
+                ipsum ad odio consectetur, quibusdam voluptates itaque numquam dolorem!</p>
         </div>
         <!-- products section -->
         <div class="pizza_card container-fluid pt-5">
@@ -100,8 +100,8 @@ export default {
     .pizza_price {
         color: $proj_primary;
     }
-    
-    p{
+
+    p {
         font-size: 1rem;
     }
 }

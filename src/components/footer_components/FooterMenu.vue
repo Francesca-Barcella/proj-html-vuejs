@@ -87,6 +87,9 @@ export default {
                         <li>
                             <h6 class="uppercase">{{ item.date }}</h6>
                         </li>
+                        <!-- capire come aggiungere un if/else per verificare e aggiungere colore rosso -->
+                        <!-- ${item.date in WorkingHours === MONDAY ? 'red' : ''} qualcosa tipo questo? -->
+                        <!-- v-bind:class="{date == MONDAY ? 'red' : ''}" -->
                         <li class="lowercase">{{ item.hours }}</li>
                     </ul>
                     <div class="social d-flex mt-3">
@@ -164,7 +167,11 @@ i {
     img {
         max-width: 125px;
         filter: sepia(100%);
-        
+
+    }
+
+    .red{
+        color: blue;
     }
 }
 </style>

@@ -27,7 +27,7 @@ PESCARE DA FIGMA
 
 ## elementi mancanti da trovare:
  • background puntinato
- • backgroundlogo natural del footer
+ • FATTO!!! - backgroundlogo natural del footer
  • FATTO!!! - icona search
 
 ## ANALISI-SCALETTA:
